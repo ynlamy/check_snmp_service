@@ -11,6 +11,8 @@ Name or IP address of host (default: 127.0.0.1)
 Community name for the host's SNMP agent (default: public)
 -s STRING
 Service's name
+-p STRING
+Service's parameters
 -w INTEGER
 Warning level for the number of service (default: 0)
 -c INTEGER
