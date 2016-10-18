@@ -97,6 +97,7 @@ print_help() {
   echo ""
   echo "This plugin uses the 'snmpget' command and the 'snmpwalk' command included with the NET-SNMP package."
   echo "This plugin support performance data output."
+  echo "If the percentage of the warning and critical levels are set to 0, then the script returns a OK state."  
 }
 
 while getopts H:C:s:p:w:c:hV OPT
